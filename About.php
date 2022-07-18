@@ -1,0 +1,44 @@
+<?php
+	session_start();
+?>
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About</title>
+<link rel = "icon" href="img/retro-sunset-png-1.png" type="image/x-icon">
+<link rel="stylesheet" type="text/css" href="stylesheet.css">
+</head>
+
+<body>
+	<div id="bg">
+		<img src="bg.gif"/>
+	</div>
+	<div class="window" style="height:100%;">
+		<div id="mainMusicPlayer" style="height:100%; background-color:rgba(255,255,255,0.40); top:-140px; left:50px; width:400px;">
+			<div class="header">
+				<div class="icon">
+				<img src="img/retro-sunset-png-1.png" width="23px" height="23px;"/>
+				</div>
+				About
+		  	</div>
+			<div style="clear:both"></div>
+			<div style="background-color:rgba(255,255,255,0.60); text-align: left; margin:5px;">
+			<h3>Welcome to Obsolete Aesthetics!</h3>
+				<p>Obsolete Aesthetics is a free 24/7 online vaporwave radio station. The broadcast also includes some future funk and experimental genres. We hope you enjoy.</p>
+			<h3>Obsolete Aesthetics Goes Mobile!</h3>
+				<p>Obsolete Aesthetics has been launched for all android and apple products. Download now and let Obsolete Aesthetics show you the past with the music of the future. Get it on <a href="https://store.google.com/us/?hl=en-US&regionRedirect=true" target="_blank">Google Play </a> now!</p>
+			<h3>Contact Information</h3>
+				<p>Please send any enquiries you may have to <a href="mailto:aamir.bscs18seecs@seecs.edu.pk">aamir.bscs18seecs@seecs.edu.pk</a>. Any updates or upcoming maintenance on Obsolete Aesthetics can be found on our official Twitter account: <a href="https://twitter.com/obsoleteaesthetics/">@ObsoleteAesthetics</a>. Obsolete Aesthetics can also be found on <a href="https://youtube.com/">Youtube</a>, <a href="https://facebook.com/">Facebook</a> and <a href="https://soundcloud.com/">SoundCloud</a>.</p>
+			</div>
+			<div class="row"></div>
+			<div style="background-color:rgba(117,117,117,0.60); text-align: left; margin:5px;">
+			<a href="mainpage.php"><button class="controls" style="float:right; width:120px; background-color:rgba(117,117,117,0.40);">Close</button></a>
+			</div>
+		</div>
+	</div>
+	<div class="row"></div>
+<div class="social-buttons" style="z-index:1;"><a href="https://store.google.com/us/?hl=en-US&regionRedirect=true"><img src="img/GPlay.png" style="height:64px;"></a></div>
+</body>
+</html>

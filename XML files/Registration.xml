@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!DOCTYPE Registration[
+<!ELEMENT Registration (Username, Password, Password-Re, Email)>
+<!ELEMENT Username (#PCDATA)>
+<!ELEMENT Password (#PCDATA)>
+<!ELEMENT Password-Re (#PCDATA)>
+<!ELEMENT Email (#PCDATA)>
+]>
+
+<Registration>
+<Username>Areeb</Username>
+<Password>12345</Password>
+<Password-Re>12345</Password-Re>
+<Email>aamir.bscs18seecs@seecs.edu.pk</Email>
+</Registration>

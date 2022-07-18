@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!DOCTYPE Artist[
+<!ELEMENT Artist (Name, Song+, Album*)>
+<!ELEMENT Name (#PCDATA)>
+<!ELEMENT Song (#PCDATA)>
+<!ELEMENT Album (#PCDATA)>
+]>
+
+<Artist>
+<Name>Areeb Amir</Name>
+<Song>Hello World</Song>
+<Album>NUST</Album>
+</Artist>

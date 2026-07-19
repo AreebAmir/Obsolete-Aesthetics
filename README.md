@@ -1,6 +1,6 @@
 # Obsolete Aesthetics
 
-A retro-themed music player website built with PHP and MySQL. Users can sign up, log in, browse a library of tracks with cover art, and like/dislike songs. An admin panel allows managing the music library and registered users.
+A retro-themed music player website built with PHP and MySQL. Users can sign up, log in, browse a library of tracks with cover art, and like/dislike songs. An admin panel allows managing the music library and registered users. P.S: I created some of the backgrounds using Cinema4D ;)
 
 This was one of my first web development projects, built to practice server-side PHP, MySQL, and basic front-end fundamentals before moving on to frameworks. I'm keeping the structure as it was originally written, warts and all — see [Notes](#notes) below for what I'd do differently now.
 
